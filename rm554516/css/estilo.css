@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{text-decoration: none;
+}
+
+#topo{
+    display: flex;
+    height: 100px;
+    background-color: black;
+    justify-content:space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#topo span{
+    color: rgb(244, 246, 247);
+    margin-left: 20px;
+    font-family: verdana,tahoma,sans-serif;
+    font-weight: 700;
+}
+
+.link{
+    display:inline;
+    margin-right: 20px;
+
+}
+
+.link a{
+    color:blanchedalmond;
+    padding: 10px;
+    background-color: rgb(88, 8, 5);
+    border-radius: 5px;
+    transition: background-color 0.3 ease-in-out;
+
+    &:hover{
+        background-color: blueviolet;
+    }
+}
