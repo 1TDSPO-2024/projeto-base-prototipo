@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+#topo{
+    display: flex;
+    background-color: rgb(63, 68, 66);
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    flex-wrap: wrap;
+}
+#topo span{
+    color: beige;
+    margin-left: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+}
+.link{
+    display: inline;
+    margin-right: 20px;
+}
+.link a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: rgb(79, 143, 238);
+    border-radius: 5px0;
+    transition: background-color 0.4s ease-in-out;
+    &:hover {
+        background-color: rgb(149, 183, 233);
+    }
+}
