@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+#topo{
+    display: flex;
+    height: 100px;
+    background-color: #04040a;
+    justify-content:  space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#topo span{
+    color: #fff;
+    margin-left: 20px;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-weight: 700;
+}
+
+.link{
+    display: inline;
+    margin-right: 20px;
+}
+
+.link a{
+    color: #fff;
+    padding: 10px;
+    background-color: #e82d2d;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+
+    &:hover {
+        background-color: #1e4ac5;
+    }
+}
