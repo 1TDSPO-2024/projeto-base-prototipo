@@ -20,12 +20,12 @@ a{
 #topo span {
   color: #fff;
   margin-left: 20px;
-  font-family: Verdana, Tohama, sans-serif;
-  font-weight: 700px;
+  font-family: Verdana, Tahoma, sans-serif;
+  font-weight: 700;
 }
 
 .link{
-    display: inline;
+    display: inline-block;
     margin-right: 20px;
 }
 
@@ -41,3 +41,25 @@ a{
   }
 }
 
+h2{
+  text-align: center;
+  margin: 3%;
+}
+
+
+#pets{
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 800px;
+  margin: 0 auto;
+  gap: 10px;
+
+  figure{
+    flex: 1 1 200px;
+  }
+
+  img{
+    width: 100%;
+    display: block;
+  }
+}
