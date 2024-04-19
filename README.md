@@ -23,9 +23,12 @@
 
  ## Equipes
   - [Equipe Cabecalho ]
-  - 
+  - Raphaela - Francesco - LucasR - Caio - Brenno - Caike
   - [Equipe Help ]
+  - Samara - Oscar - Wesley-S - Filemon - Bento - LucasV
   - [Equipe About ]
+  - Eric - Felipe - Guilherme-M - Gustavo - Kaique - Kauã
   - [Equipe Cadastro ]
-  - Otavio
+  - Otavio - NicolasG - GuilhermeJ - Luciayla - Witalon - Tiago
   - [Equipe Rodape ]
+  - Vanessa - NicolasS - WeslleyM - Julio - Bruno - Julia
