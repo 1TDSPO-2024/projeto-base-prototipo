@@ -21,3 +21,11 @@
   - [ ] Criar um texto de aviso abaixo do campo  mensagem, informando que o campo  é   obrigatório.
   - [ ] Adicionar uma cor vermelha ao texto.
 
+ ## Equipes
+  - [Equipe Cabecalho ]
+  - 
+  - [Equipe Help ]
+  - [Equipe About ]
+  - [Equipe Cadastro ]
+  - Otavio
+  - [Equipe Rodape ]
