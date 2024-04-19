@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+  }
+  
+  .container {
+    display: grid;
+    background-color: #ccc;
+    border: 2px solid #0000ff;
+    padding: 20px;
+    grid-template-columns: 100px auto 100px;
+    height: 25vh;
+    grid-template-rows: 60% 40%;
+  }
+  
+  .container div {
+    color: #fff;
+    background-color: blueviolet;
+    padding: 20px;
+    border: 1px solid #eaff00;
+  }
+  
