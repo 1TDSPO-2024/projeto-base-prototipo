@@ -8,6 +8,54 @@
     box-sizing: border-box;
 }
 
-#cabecalho{
-    font-family: "Oswald", sans-serif;
+
+
+#cabecalho {
+    position: relative;
+    background-image: url('./img/banner-1280×640.png');
+    background-size: cover;
+    background-position: center;
+    height: 100px;
+    color: aliceblue;
+    
+}
+
+.nome-cabecalho {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px; 
+}
+
+.conteudo-cabecalho {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px; 
+    justify-content: flex-end;
+    
+}
+
+.conteudo-cabecalho nav ul{
+    list-style-type: none;
+    padding: 10;
+    margin: 10px;
+}
+
+.conteudo-cabecalho nav ul li{
+    margin-left: 30px;
+    display: inline-block
+}
+
+.icons{
+    font-size: 40px;
+    padding: 300px;
 }
