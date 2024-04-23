@@ -1,0 +1,50 @@
+.about {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #1E2836;
+    border-radius: 10px;
+    overflow: auto;
+}
+  
+.about h2 {
+    color: #f6f1ee;
+    font-family: "Open Sans", sans-serif;
+    font-size: 400%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-left: 10px;
+    margin-bottom: 10px;
+    position: relative;
+}
+  
+.about p {
+    color: #fff;
+    font-family: "Open Sans";
+    font-size: 18px;
+}
+  
+.about button {
+    background-color: #1E2836;
+    color: #fff;
+    padding: 3px 30px;
+    border: 3px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    float: right;
+}
+  
+.about hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+  
+.about .info-icon {
+    color: #fff;
+    font-size: 70%;
+    position: absolute;
+    top: -10%;
+    right: 0; /* Ajuste a posição aqui */
+}
