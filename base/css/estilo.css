@@ -11,3 +11,8 @@
 #cabecalho{
     font-family: "Oswald", sans-serif;
 }
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

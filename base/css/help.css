@@ -15,8 +15,8 @@
     font-weight: weight;
     font-style: normal;
     font-size: 400%;
-}
-
-.background{ 
-    background-color: #1E2836;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-left: 10px;
 }
