@@ -20,3 +20,11 @@
     justify-content: space-between;
     border-left: 10px;
 }
+
+.background{
+    background-color: #1E2836;
+}
+
+.text{
+    color: #f6f1ee;
+} 
