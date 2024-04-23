@@ -7,15 +7,15 @@
     box-sizing: border-box;
 }
 
-#cabecalho {
+header{
     width: 100%;
-    position: relative;
-    background-image: url('../img/banner-1280×640.png');
+    background-image: url("/img/banner-1280×640.png");
     background-size: cover;
     background-position: center;
-    height: 200px;
-    color: aliceblue;
-
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
 }
 
 .nome-cabecalho {
