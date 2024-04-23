@@ -1,13 +1,41 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
-
-
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-#cabecalho{
-    font-family: "Oswald", sans-serif;
+#topo {
+    display: flex;
+    height: 100px;
+    background-color: rgb(8, 1, 34);
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#topo span{
+    color: aliceblue;
+    margin-left: 20px;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-weight: 700;
+}
+
+.link{
+    display: inline;
+}
+
+a{
+    text-decoration: none;
+}
+
+.link a{
+    color: aliceblue;
+    margin-right: 20px;
+    padding: 10px;
+    background-color: darkred;
+    border-radius: 7px;
+    transition: background-color 250ms ease-in-out;
+    &:hover{
+        background-color: coral;
+    }
 }
