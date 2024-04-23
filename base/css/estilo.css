@@ -1,23 +1,21 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-
-
 #cabecalho {
+    width: 100%;
     position: relative;
-    background-image: url('./img/banner-1280×640.png');
+    background-image: url('../img/banner-1280×640.png');
     background-size: cover;
     background-position: center;
-    height: 100px;
+    height: 200px;
     color: aliceblue;
-    
+
 }
 
 .nome-cabecalho {
@@ -28,7 +26,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 30px; 
+    padding: 0 215px;
+    margin-left: 15px;
+    color: white;
+    font-family: "Oswald", sans-serif;
+    font-size: 50px;
 }
 
 .conteudo-cabecalho {
@@ -39,23 +41,24 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 20px; 
+    padding: 0 20px;
     justify-content: flex-end;
-    
+
 }
 
-.conteudo-cabecalho nav ul{
+.conteudo-cabecalho nav ul {
     list-style-type: none;
     padding: 10;
     margin: 10px;
 }
 
-.conteudo-cabecalho nav ul li{
+.conteudo-cabecalho nav ul li {
     margin-left: 30px;
     display: inline-block
 }
 
-.icons{
+.icons {
     font-size: 40px;
     padding: 300px;
+    color: white;
 }
