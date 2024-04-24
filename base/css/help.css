@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+15&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Sedan:ital@0;1&display=swap');
+
+:root {
+  --primary: #1E2836;
+  --secondary: #404854;
+  --terciary: #FFFFFF;
+  --details1: #D8D0D0;
+  --details2: #fd4545;
+}
+
+.titulo{
+    color: #f6f1ee;; 
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:bold;
+    font-style: normal;
+    font-size: 400%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-left: 10px;
+    text-transform: uppercase;
+}
+
+.background{
+    background-color: #1E2836;
+}
+
+.text{
+    color: #f6f1ee;
+} 
+
+.title {
+    color: floralwhite;; 
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 140%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-left: 10px;
+}
+
+.textinho {
+    color: floralwhite;; 
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 99%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-left: 10px;
+}
+
+body{
+    padding: 2rem;
+}
+
+.centralizado {
+    text-align: center;
+}

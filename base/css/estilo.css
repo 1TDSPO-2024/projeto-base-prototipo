@@ -23,6 +23,12 @@ header{
     font-family: "Oswald", sans-serif;
 }
 
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 #footer {
     background-color: #1E2836;
     width: 100%;
