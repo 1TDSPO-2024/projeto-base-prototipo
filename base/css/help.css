@@ -28,6 +28,7 @@
 
 .text{
     color: #f6f1ee;
+    font-family: "Open Sans", sans-serif;
 } 
 
 .title {
@@ -62,4 +63,26 @@ body{
 
 .centralizado {
     text-align: center;
+}
+
+.background > a > button {
+    background-color: #1E2836;
+    color: #fff;
+    padding: 3px 30px;
+    border: 3px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    float: right;
+}
+
+.help-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    > i {
+        color: #fff;
+        font-size: 3rem;
+    }
 }
