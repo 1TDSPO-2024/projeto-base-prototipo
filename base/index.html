@@ -55,29 +55,21 @@
           <button>Mais...</button>
         </div>
       </section>
-      <section>
+      <section id="cadastro">
         <div>
           <form>
-            <fieldset>
-              <legend>CADASTRO</legend>
-              <div>
-                <input
-                  type="text"
-                  name="txtNomeCompleto"
-                  id="idNmCompleto"
-                  placeholder="NomeCompleto"
-                /><label for="idNmCompleto">*Campo obrigatório</label>
+            <fieldset class="form-cadastro">
+              <legend class="legend-cadastro">CADASTRO</legend>
+              <div class="input-wrapper-cadastro">
+                <input class="input-cadastro" type="text" name="txtNomeCompleto" id="idNmCompleto" placeholder="Nome completo">
+                <label id="campoObrig" for="idNmCompleto">*Campo obrigatório</label>
+              </div>
+              <div class="input-wrapper-cadastro">
+                <input class="input-cadastro" type="email" name="txtEmail" id="idEmail" placeholder="Email">
+                <label id="campoObrig" for="idEmail">*Campo obrigatório</label>
               </div>
               <div>
-                <input
-                  type="email"
-                  name="txtEmail"
-                  id="idEmail"
-                  placeholder="Email"
-                /><label for="idEmail">*Campo obrigatório</label>
-              </div>
-              <div>
-                <button type="button">Enviar</button>
+                <button type="button" class="button-enviar">Enviar</button>
               </div>
             </fieldset>
           </form>
