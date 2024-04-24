@@ -1,22 +1,55 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 
-
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     
 }
+
+
+
+
 header{
     width: 100%;
-    background-image: url("/img/banner-1280×640.png");
+    background-image: url("../img/banner.png");
     background-size: cover;
     background-position: center;
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 10px 0;
+
+}
+.container-logo{
+    align-items: center;
+    display: flex;
+}
+
+.logo-texto{
+    margin-left: 15px;
+    color: white;
+    font-family:"Oswald", sans-serif;
+    font-size: 20px;
+    
+}
+.menu li{
+    display: inline-block;
+    margin: 20px 10px;
+}
+
+.menu li i{
+    font-size: 40px;
+    text-decoration:none;
+    color: white;
+    padding: 10px 0;
+
+}
+
+
+
+
 }
 
 #cabecalho{
