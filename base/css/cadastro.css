@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+:root {
+  --primary: #1E2836;
+  --secondary: #404854;
+  --terciary: #FFFFFF;
+  --details1: #D8D0D0;
+  --details2: #fd4545;
+}
+
+form {
+  padding: 1rem;
+}
+
+.form-cadastro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  font-family: "Inter", sans-serif;
+}
+
+.input-wrapper-cadastro {
+  display: flex;
+  flex-direction: column;
+  margin: .5rem;
+  width: 100%;
+}
+
+.legend-cadastro {
+  margin: 0 auto;
+  font-size: 3rem;
+  color: #FFFFFF;
+  border-radius: 12px;
+  font-weight: 600;
+}
+
+#cadastro {
+  background-color: #404854;
+  border-radius: 12px;
+}
+
+#campoObrig{
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  color: var(--details2);
+}
+
+.button-enviar {
+  background-color:#1E2836;
+  color: white;
+  padding: 15px 80px;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 5px;
+  border: 2px solid white;
+}
+
+.input-cadastro {
+  background-color: var(--terciary);
+  font-size: 1.2rem;
+  color: var(--secondary);
+  font-family:"Inter", sans-serif;
+  flex-direction: column;
+  border-radius: 10px;
+  border: 2px solid var(--details1);
+  padding: 12px 10px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-top: 1rem;
+}
